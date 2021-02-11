@@ -1,0 +1,26 @@
+# AStaffPlugin Config.yml
+#
+#
+# The following are variables:
+# %player% = Acquires senders name.
+# %bt% = Bans total.
+#
+#
+BansList Prefix: '&cBans(%bt%):&b '
+BansList enable: true
+#
+#
+# Permission nodes can be found at:
+# https://www.spigotmc.org/resources/astaffplugin.82216/
+#
+#
+# Color Codes are  '&'
+Prefix: '&7[&9ASP&7] '
+Permission: '&cYou do not have permission to do this command'
+GlobalMuteMessage: '&cChat is disabled please try again later'
+GlobalMuteEnabled: '&aChat is now enabled'
+GlobalMuteDisabled: '&cChat is now disabled'
+#
+#
+# ! DO NOT CHANGE !
+Version: 3.4.1

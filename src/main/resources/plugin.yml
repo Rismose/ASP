@@ -1,0 +1,40 @@
+name: AStaffPlugin
+version: ${project.version}
+main: me.rismsoe.astaffplugin.AStaffPlugin
+authors: [Rismose]
+description: Yes
+commands:
+  Bans:
+    description: Gives list of banned players.
+    usage: /bans
+  UUID:
+    description: Get a user's UUID.
+    usage: /uuid <name>
+  aspreload:
+    description: Reloads ASP
+    usage: /aspreload
+  Fly:
+    description: makes u able to fly
+  asp:
+    usage: /<command>
+    description: opens a staff gui menu
+    permission: AStaffplugin.GUI
+  GamemodeMenu:
+    usage: /<command>
+    description: a gamemode gui
+  Clearchat:
+    usage: /<command>
+    aliases: [cc]
+    description: clears chat
+    permission: asp.clearchat
+  Freeze:
+    usage: /freeze <name>
+    permission: asp.freeze
+  Vanish:
+    description: makes you invisible to other players
+    permission: asp.vanish
+  Mutechat:
+    description: mutes chat
+    permission: aspstaffmember.mutechat
+  ASPVer:
+    description: tells you the plugin version
