@@ -57,7 +57,7 @@ public class AStaffPlugin extends JavaPlugin implements Listener {
         this.saveDefaultConfig();
         this.reloadConfig();
         Bukkit.getConsoleSender().sendMessage("§7[§dASP§7] §bYou are running version §e" + this.getDescription().getVersion());
-        Bukkit.getConsoleSender().sendMessage("§7[§dASP§7] §bBy §e Rismose");
+        Bukkit.getConsoleSender().sendMessage("§7[§dASP§7] §bBy§eRismose");
         Bukkit.getConsoleSender().sendMessage("§7[§dASP§7] §bFully Loaded");
         final PluginManager pm = this.getServer().getPluginManager();
 
